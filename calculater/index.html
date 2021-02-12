@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset ="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculater</title>
+  </head>
+  <body>
+   <div class="product">
+     <div class="container">
+      <input class="input-form" type="text" value="0" name="line">
+      <div class="calculater">
+       <table>
+            <!--列1目-->
+            <tr>
+                <td><input type="button" class="" value="🍏" /></td>
+                <td><input type="button" class="" value="AC" onclick=erase() /></td>
+                <td><input type="button" class="" value="%" onclick=devide(value) /></td>
+                <td><input type="button" class="operator" value="/" onclick=Culculate(value) /></td>
+            </tr>
+             <!--2列目-->
+            <tr>
+                <td><input type="button" class="number" value="7" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="8" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="9" onclick=input(value) /></td>
+                <td><input type="button" class="operator" value="*" onclick=Culculate(value) /></td>
+            </tr>
+             <!--3列目-->
+            <tr>
+                <td><input type="button" class="number" value="4" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="5" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="6" onclick=input(value) /></td>
+                <td><input type="button" class="operator" value="-" onclick=Culculate(value) /></td>
+            </tr>
+             <!--4列目-->
+            <tr>
+                <td><input type="button" class="number" value="1"onclick=input(value) /></td>
+                <td><input type="button" class="number" value="2" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="3" onclick=input(value) /></td>
+                <td><input type="button" class="operator" value="+" onclick=Culculate(value) /></td>
+            </tr>
+             <!--5列目-->
+            <tr>
+                <td><input type="button" class="number" value="0" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="00" onclick=input(value) /></td>
+                <td><input type="button" class="number" value="." onclick=input(value) /></td>
+                <td><input type="button" class="operator" value="=" onclick=Culculate(value) /></td>
+            </tr>
+        </table>
+       
+    
+         </div>
+       </div>
+     </div>
+   </div>
+  <script type="text/javascript" src="main.js"></script>    
+  </body>
+</html>
